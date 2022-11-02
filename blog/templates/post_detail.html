@@ -1,0 +1,13 @@
+<!-- templates/post_detial.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="post-entry">
+        <h2>{{ post.title }}</h2>
+        <p>{{ post.body }}</p>
+
+        <!-- We could also update our tmeplate as fellow -->
+        <!-- <h2>{{object.title}}</h2> -->
+        <!-- <p>{{object.body}}</p> -->
+    </div>
+{% endblock content %}
